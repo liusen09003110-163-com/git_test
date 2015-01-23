@@ -2,9 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
+AC_INIT(hello, 1.0, liusen09003110@163.com)
 AC_CONFIG_SRCDIR([hello.c])
 AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE(hello,1.0)
 
 # Checks for programs.
 AC_PROG_CC
@@ -17,4 +18,4 @@ AC_PROG_CC
 
 # Checks for library functions.
 
-AC_OUTPUT
+AC_OUTPUT(Makefile)
